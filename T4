@@ -1,0 +1,96 @@
+//Q1
+/*
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+    cout << "Base" << setw(8) << "Height" << setw(8) << "Area" << endl;
+    cout << "----" << setw(8) << "------" << setw(8) << "----" << endl;
+    for(int i = 1; i <= 3; i++)
+    {
+        for(int b = 1; b <= 3; b++ )
+        {
+            cout << i << setw(8) << b << setw(8) << i * b << endl;
+        }
+        cout << "----" << setw(8) << "------" << setw(8) << "----" << endl;
+    }
+   
+    return 0;
+}
+*/
+
+//Q2
+/*
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n = 0;
+    
+    cout << "n: ";
+    cin >> n;
+    
+    while(n > 0)
+    {
+    int r = 1;
+    for(int i = n; i > 0; i--)
+    {
+        r = r * i;
+    }
+    
+    cout << n << "! = " << r << endl;
+    cout << "n: ";
+    cin >> n;
+    
+    }
+    
+    cout << "Negative value is not supported" << endl;
+ 
+    return 0;
+}
+*/
+
+//Q3
+/*
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+    
+}
+*/
+
+//Q4
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+    //double a = 11, b = 13, c = 15, d = 17, e = 19;
+    double p = double (4/1) - (4/3) + (4/5) - (4/7) + (4/9) - (4/11) + (4/13) - (4/15) + (4/17) - (4/19);
+    //cout << setw(10) << "Terms" << setw(20) << "Value of PI" << endl;
+    //cout << setw(10) << "-----" << setw(20) << "-----------" << endl;
+    
+    /*for(int t=10; t<100000; t=t*10)
+    {
+     cout << setw(10) << t << setw(20) << setprecision(15) << fixed << pi << endl;
+        a += 10;
+        b += 10;
+        c += 10;
+        d += 10;
+        e += 10;
+        pi = (4/1 - 4/3 + 4/5 - 4/7 + 4/9 - 4/a + 4/b - 4/c + 4/d - 4/e);
+    }
+     */
+    cout << p ;
+}
